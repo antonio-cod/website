@@ -1854,7 +1854,7 @@ p {
       border-bottom-right-radius: 5px;
       border-left: 0; }
     .group-buttons .group-one .main-btn:hover {
-      background-color: #0067f4;
+      background-color: #f40000;
       color: #fff; }
 .group-buttons .group-two .main-btn {
   background: none;
@@ -2709,9 +2709,9 @@ p {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background: -webkit-linear-gradient(#2bdbdc 0%, #0067f4 100%);
-  background: -o-linear-gradient(#2bdbdc 0%, #0067f4 100%);
-  background: linear-gradient(#2bdbdc 0%, #0067f4 100%); }
+  background: -webkit-linear-gradient(#020000b2 0%, #000000dc 100%);
+  background: -o-linear-gradient(#020000b2 0%, #000000dc 100%);
+  background: linear-gradient(#020000b2 0%, #000000dc 100%); }
   .pricing-style .pricing-icon img {
     width: 190px; }
   .pricing-style .pricing-header .sub-title {
@@ -2763,10 +2763,10 @@ p {
   .pricing-style .pricing-btn {
     margin-top: 31px; }
     .pricing-style .pricing-btn .main-btn {
-      background-color: #fff;
-      border-color: #fff; }
+      background-color: #ecd48d;
+      border-color: #ecd48d;}
       .pricing-style .pricing-btn .main-btn:hover {
-        color: #0067f4;
+        color: #f4000000;
         -webkit-box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16);
         -moz-box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16);
         box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16); }
@@ -3206,7 +3206,7 @@ p.form-message.success, p.form-message.error {
   .footer-area .copyright .text {
     color: #121212; }
   .footer-area.footer-dark {
-    background-color: #121212; }
+    background-color: #121212f0; }
     .footer-area.footer-dark .social li a {
       color: #fff; }
     .footer-area.footer-dark .footer-support {
