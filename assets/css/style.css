@@ -2330,23 +2330,23 @@ p {
             background-color: transparent;
             color: #fff; }
   .navbar-area.sticky {
-    background-color: rgb(231, 229, 138);
+    background-color: rgba(12, 12, 12, 0.979);
     z-index: 999;
     position: fixed;
     -webkit-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
     -moz-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
     box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05); }
     .navbar-area.sticky .navbar .navbar-toggler .toggler-icon {
-      background-color: #121212; }
+      background-color: #fcf9f9; }
     .navbar-area.sticky .navbar .navbar-nav .nav-item a {
-      color: #121212;
+      color: #fff;
       opacity: 0.7; }
       .navbar-area.sticky .navbar .navbar-nav .nav-item a::before {
         background: -webkit-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
         background: -o-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
         background: linear-gradient(to right, rgba(18, 18, 18, 0) 0%, #121212 100%); }
     .navbar-area.sticky .navbar .navbar-nav .nav-item.active, .navbar-area.sticky .navbar .navbar-nav .nav-item:hover {
-      color: #121212;
+      color: #fff;
       opacity: 1; }
     .navbar-area.sticky .navbar .navbar-btn li a.light {
       border-color: #0067f4;
@@ -3245,3 +3245,41 @@ p.form-message.success, p.form-message.error {
     background-color: #0067f4; }
 
 /*# sourceMappingURL=style.css.map */
+/*=============== 
+HERO
+==================*/
+section.her {
+  margin: 80px 0;
+}
+
+section.her .container {
+  width: 90%;
+  max-width: 980px;
+
+  margin: auto;
+
+  display: flex;
+}
+
+section.her p {
+  color: rgb(36, 34, 34);
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin: 10px 0px 0px;
+}
+
+/*=============== 
+REDE SOCIAL
+==================*/
+section.soc {
+  margin: 80px 0;
+}
+
+section.soc .container {
+  width: 90%;
+ 
+
+  margin: auto;
+
+  display: flex;
+}
