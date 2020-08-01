@@ -2174,7 +2174,7 @@ p {
     .navbar-area .navbar .navbar-toggler .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: #fff;
+      background-color: rgb(255, 255, 255);
       margin: 5px 0;
       display: block;
       position: relative;
@@ -2205,7 +2205,7 @@ p {
         top: 115%;
         left: 0;
         width: 100%;
-        background-color: #f4f6f7;
+        background-color: #f7f4f4;
         z-index: 8;
         padding: 10px 0;
         -webkit-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
@@ -2217,7 +2217,7 @@ p {
         top: 115%;
         left: 0;
         width: 100%;
-        background-color: #f4f6f7;
+        background-color: #f7f7f4;
         z-index: 8;
         padding: 10px 0;
         -webkit-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
@@ -2231,7 +2231,7 @@ p {
         line-height: 24px;
         font-weight: 700;
         padding: 26px 0;
-        color: #fff;
+        color: rgb(255, 255, 255);
         text-transform: uppercase;
         position: relative;
         opacity: 0.8;
@@ -2279,7 +2279,7 @@ p {
               display: none; } }
       .navbar-area .navbar .navbar-nav .nav-item.active > a, .navbar-area .navbar .navbar-nav .nav-item:hover > a {
         opacity: 1;
-        color: #fff; }
+        color: rgb(255, 255, 255); }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .navbar-area .navbar .navbar-nav .nav-item.active > a, .navbar-area .navbar .navbar-nav .nav-item:hover > a {
             color: #121212; } }
@@ -2330,7 +2330,7 @@ p {
             background-color: transparent;
             color: #fff; }
   .navbar-area.sticky {
-    background-color: #fff;
+    background-color: rgb(231, 229, 138);
     z-index: 999;
     position: fixed;
     -webkit-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
@@ -2354,7 +2354,7 @@ p {
     .navbar-area.sticky .navbar .navbar-btn li a.solid {
       border-color: #0067f4;
       background-color: #0067f4;
-      color: #fff; }
+      color: rgb(255, 255, 255); }
 
 /*===========================
        10.SLIDER css 
@@ -2709,16 +2709,16 @@ p {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background: -webkit-linear-gradient(#020000b2 0%, #000000dc 100%);
-  background: -o-linear-gradient(#020000b2 0%, #000000dc 100%);
-  background: linear-gradient(#020000b2 0%, #000000dc 100%); }
+  background: -webkit-linear-gradient(#e7d745 0%, #ecc30c6b 100%);
+  background: -o-linear-gradient(#e7d745 0%, #ecc30c6b  100%);
+  background: linear-gradient(#e7d745 0%, #ecc30c6b  100%); }
   .pricing-style .pricing-icon img {
     width: 190px; }
   .pricing-style .pricing-header .sub-title {
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     position: relative;
     margin-top: 24px; }
   .pricing-style .pricing-header .month {
@@ -2743,7 +2743,7 @@ p {
     .pricing-style .pricing-list ul li {
       font-size: 16px;
       line-height: 24px;
-      color: #fff;
+      color: rgb(0, 0, 0);
       margin-top: 16px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .pricing-style .pricing-list ul li {
@@ -2763,7 +2763,7 @@ p {
   .pricing-style .pricing-btn {
     margin-top: 31px; }
     .pricing-style .pricing-btn .main-btn {
-      background-color: #ecd48d;
+      background-color: #000000;
       border-color: #ecd48d;}
       .pricing-style .pricing-btn .main-btn:hover {
         color: #f4000000;
