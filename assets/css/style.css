@@ -2217,7 +2217,7 @@ p {
         top: 115%;
         left: 0;
         width: 100%;
-        background-color: #f7f7f4;
+        background-color: #faf9f9;
         z-index: 8;
         padding: 10px 0;
         -webkit-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
@@ -2324,7 +2324,7 @@ p {
             background-color: rgba(255, 255, 255, 0.4); }
         .navbar-area .navbar .navbar-btn li a.solid {
           background-color: #fff;
-          border-color: #fff;
+          border-color: rgb(0, 0, 0);
           color: #0067f4; }
           .navbar-area .navbar .navbar-btn li a.solid:hover {
             background-color: transparent;
@@ -2339,7 +2339,7 @@ p {
     .navbar-area.sticky .navbar .navbar-toggler .toggler-icon {
       background-color: #fcf9f9; }
     .navbar-area.sticky .navbar .navbar-nav .nav-item a {
-      color: #fff;
+      color: rgb(252, 249, 249);
       opacity: 0.7; }
       .navbar-area.sticky .navbar .navbar-nav .nav-item a::before {
         background: -webkit-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
@@ -3115,6 +3115,17 @@ MEDIA
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
 }
+
+.ca {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
 /*=============== 
 HERO
 ==================*/
@@ -3174,7 +3185,10 @@ section.es .container {
 
   margin: auto;
 
-  display: flex;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
 }
 
 section.es p {
@@ -3207,6 +3221,30 @@ section.ar p {
   line-height: 2.0rem;
   margin: 10px 0px 0px;
 }
+
+/*=============== 
+NOTICIAS
+==================*/
+section.no {
+  margin: 80px 0;
+}
+
+section.no .container {
+  width: 90%;
+  max-width: 980px;
+
+  margin: auto;
+
+  display: flex;
+}
+
+section.no p {
+  color: rgb(41, 37, 37);
+  font-size: 1.5rem;
+  line-height: 2.0rem;
+  margin: 10px 0px 0px;
+}
+
 /*=============== 
 REDE SOCIAL
 ==================*/
@@ -3216,7 +3254,8 @@ section.soc {
 
 section.soc .container {
   width: 90%;
- 
+  max-width: 500px;
+
 
   margin: auto;
 
