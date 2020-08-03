@@ -2359,169 +2359,6 @@ p {
 /*===========================
        10.SLIDER css 
 ===========================*/
-.carousel-item {
-  background-color: #0067f4;
-  position: relative; }
-  .carousel-item::before {
-    position: absolute;
-    content: '';
-    width: 33%;
-    height: 100%;
-    background: -webkit-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
-    background: -o-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
-    background: linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
-    top: 0;
-    right: 15%;
-    -webkit-transform: skewX(20deg);
-    -moz-transform: skewX(20deg);
-    -ms-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg); }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .carousel-item::before {
-        width: 40%; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .carousel-item::before {
-        width: 60%; } }
-    @media (max-width: 767px) {
-      .carousel-item::before {
-        width: 50%;
-        right: 45%; } }
-    @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .carousel-item::before {
-        right: 25%; } }
-  .carousel-item .slider-image-box {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    z-index: 9; }
-    .carousel-item .slider-image-box .slider-image {
-      max-width: 680px;
-      width: 100%; }
-
-.slider-content {
-  position: relative;
-  z-index: 9;
-  padding-top: 240px;
-  padding-bottom: 200px; }
-  @media (max-width: 767px) {
-    .slider-content {
-      padding-top: 190px;
-      padding-bottom: 150px; } }
-  .slider-content .title {
-    font-size: 88px;
-    line-height: 96px;
-    color: #fff;
-    font-weight: 700; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .slider-content .title {
-        font-size: 58px;
-        line-height: 80px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .slider-content .title {
-        font-size: 72px;
-        line-height: 90px; } }
-    @media (max-width: 767px) {
-      .slider-content .title {
-        font-size: 34px;
-        line-height: 45px; } }
-  .slider-content .text {
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 16px; }
-  .slider-content .slider-btn {
-    padding-top: 16px; }
-    .slider-content .slider-btn li {
-      display: inline-block;
-      margin: 16px 8px 0; }
-      @media (max-width: 767px) {
-        .slider-content .slider-btn li {
-          margin: 16px 3px 0; } }
-      .slider-content .slider-btn li a.rounded-one {
-        background-color: #fff;
-        border-color: #fff; }
-        .slider-content .slider-btn li a.rounded-one:hover {
-          background-color: transparent;
-          color: #fff; }
-      .slider-content .slider-btn li a.rounded-two {
-        border-color: #fff; }
-        .slider-content .slider-btn li a.rounded-two:hover {
-          background-color: #fff;
-          color: #0067f4; }
-
-.carousel-indicators {
-  margin-bottom: 50px; }
-  .carousel-indicators li {
-    display: block;
-    width: 8px;
-    height: 8px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 50px;
-    border: 0;
-    margin: 0px 2px; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .carousel-indicators li {
-        width: 13px;
-        height: 13px; } }
-    @media (max-width: 767px) {
-      .carousel-indicators li {
-        width: 13px;
-        height: 13px; } }
-    .carousel-indicators li.active {
-      background-color: #fff;
-      width: 16px;
-      border-radius: 50px; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .carousel-indicators li.active {
-          width: 23px; } }
-      @media (max-width: 767px) {
-        .carousel-indicators li.active {
-          width: 23px; } }
-
-.carousel .carousel-control-prev, .carousel .carousel-control-next {
-  top: 50%;
-  font-size: 32px;
-  color: #fff;
-  bottom: auto;
-  left: 60px;
-  right: auto;
-  opacity: 1;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 99;
-  width: 48px;
-  height: 48px;
-  line-height: 48px;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 5px; }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .carousel .carousel-control-prev, .carousel .carousel-control-next {
-      left: 30px; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .carousel .carousel-control-prev, .carousel .carousel-control-next {
-      display: none; } }
-  @media (max-width: 767px) {
-    .carousel .carousel-control-prev, .carousel .carousel-control-next {
-      display: none; } }
-.carousel .carousel-control-next {
-  right: 60px;
-  left: auto; }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .carousel .carousel-control-next {
-      right: 30px; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .carousel .carousel-control-next {
-      right: 30px; } }
-  @media (max-width: 767px) {
-    .carousel .carousel-control-next {
-      right: 30px; } }
 
 /*===========================
       17.FEATURES css 
@@ -3245,6 +3082,39 @@ p.form-message.success, p.form-message.error {
     background-color: #0067f4; }
 
 /*# sourceMappingURL=style.css.map */
+
+/*=============== 
+MEDIA
+==================*/
+@media (max-width: 768px){
+
+  hmtl {
+ font-size: 50%;
+  }
+}
+@media (max-width: 630px){
+
+  .ar .container {
+ flex-direction: column;
+ text-align: center;
+  }
+  .ar .container img{
+    order: -1;
+  }
+  .from-group{
+    display: block;
+  }
+}
+
+.cards {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
 /*=============== 
 HERO
 ==================*/
@@ -3268,6 +3138,75 @@ section.her p {
   margin: 10px 0px 0px;
 }
 
+/*=============== 
+QUEM SOMOS
+==================*/
+section.qs {
+  margin: 80px 0;
+}
+
+section.qs .container {
+  width: 90%;
+  max-width: 980px;
+
+  margin: auto;
+
+  display: flex;
+}
+
+section.qs p {
+  color: rgb(15, 15, 15);
+  font-size: 1.0rem;
+  line-height: 2.0rem;
+  margin: 10px 0px 0px;
+}
+
+/*=============== 
+ESCRITORIO
+==================*/
+section.es {
+  margin: 80px 0;
+}
+
+section.es .container {
+  width: 90%;
+  max-width: 980px;
+
+  margin: auto;
+
+  display: flex;
+}
+
+section.es p {
+  color: rgb(15, 15, 15);
+  font-size: 1.0rem;
+  line-height: 2.0rem;
+  margin: 10px 0px 0px;
+}
+
+
+/*=============== 
+AREA
+==================*/
+section.ar {
+  margin: 80px 0;
+}
+
+section.ar .container {
+  width: 90%;
+  max-width: 980px;
+
+  margin: auto;
+
+  display: flex;
+}
+
+section.ar p {
+  color: rgb(41, 37, 37);
+  font-size: 1.5rem;
+  line-height: 2.0rem;
+  margin: 10px 0px 0px;
+}
 /*=============== 
 REDE SOCIAL
 ==================*/
