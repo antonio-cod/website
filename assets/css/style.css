@@ -3263,3 +3263,31 @@ section.soc .container {
 
   display: flex;
 }
+
+/*=============== 
+sobre
+==================*/
+section.qm {
+  margin: 80px 0;
+}
+
+section.qm .container {
+  width: 90%;
+  max-width: 980px;
+
+  margin: auto;
+
+  display: flex;
+}
+
+section.qm p {
+  color: rgb(15, 15, 15);
+  font-size: 1.0rem;
+  line-height: 2.0rem;
+  margin: 10px 0px 0px;
+}
+section.qm f {
+  position:relative;
+  
+
+}
