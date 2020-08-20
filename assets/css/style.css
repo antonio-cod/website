@@ -20,6 +20,7 @@
       01.COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -1574,7 +1575,7 @@ p {
   @media (max-width: 767px) {
     .lg-btn {
       font-size: 16px;
-      ine-height: 52px; } }
+      line-height: 52px; } }
 
 .el-btn {
   line-height: 80px !important;
@@ -3085,13 +3086,14 @@ p.form-message.success, p.form-message.error {
 
 /*=============== 
 MEDIA
-==================*/
 @media (max-width: 768px){
 
   hmtl {
  font-size: 50%;
   }
 }
+==================*/
+
 @media (max-width: 630px){
 
   .ar .container {
@@ -3127,7 +3129,7 @@ MEDIA
 }
 
 /*=============== 
-HERO
+EQUIPE
 ==================*/
 section.her {
   margin: 80px 0;
@@ -3167,10 +3169,12 @@ section.qs .container {
 
 section.qs p {
   color: rgb(15, 15, 15);
-  font-size: 1.0rem;
-  line-height: 2.0rem;
+  font-size: 20px;
+  line-height: 20px;
   margin: 10px 0px 0px;
 }
+
+
 
 /*=============== 
 ESCRITORIO
@@ -3217,8 +3221,8 @@ section.ar .container {
 
 section.ar p {
   color: rgb(41, 37, 37);
-  font-size: 1.5rem;
-  line-height: 2.0rem;
+  font-size: 20px;
+  line-height: 20px;
   margin: 10px 0px 0px;
 }
 
@@ -3242,8 +3246,8 @@ section.no .container {
 
 section.no p {
   color: rgb(41, 37, 37);
-  font-size: 1.5rem;
-  line-height: 2.0rem;
+  font-size: 10px;
+  line-height: 20px;
   margin: 10px 0px 0px;
 }
 
@@ -3286,8 +3290,14 @@ section.qm p {
   line-height: 2.0rem;
   margin: 10px 0px 0px;
 }
-section.qm f {
-  position:relative;
+section.qm .row {
+  width: 90%;
+  max-width: 1300px;
+
+  margin: auto;
+
+  display: flex;
+
   
 
 }
