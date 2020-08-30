@@ -20,12 +20,20 @@
       01.COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
 
 body {
+  height: 100vh;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #121212; }
+  
 
 * {
   margin: 0;
@@ -65,22 +73,35 @@ h6 {
   margin: 0px; }
 
 h1 {
-  font-size: 48px; }
+  font-size: 4.8rem;
+  line-height: 3.8rem;
+}
 
 h2 {
-  font-size: 36px; }
+  font-size: 3.6rem; 
+  line-height: 3.8rem;
+}
 
 h3 {
-  font-size: 28px; }
+  font-size: 2.8rem; 
+  line-height: 3.8rem;
+
+}
 
 h4 {
-  font-size: 22px; }
+  font-size: 2.2rem; 
+  line-height: 3.8rem;
+}
 
 h5 {
-  font-size: 18px; }
+  font-size: 1.8rem;
+  line-height: 3.8rem;
+}
 
 h6 {
-  font-size: 16px; }
+  font-size: 1.6rem; 
+  line-height: 3.8rem;
+}
 
 ul, ol {
   margin: 0px;
@@ -88,9 +109,9 @@ ul, ol {
   list-style-type: none; }
 
 p {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 2.4rem;
   color: #121212;
   margin: 0px; }
 
@@ -3169,7 +3190,7 @@ section.qs .container {
 
 section.qs p {
   color: rgb(15, 15, 15);
-  font-size: 20px;
+  font-size: 2.0rem;
   line-height: 20px;
   margin: 10px 0px 0px;
 }
@@ -3231,9 +3252,16 @@ NOTICIAS
 ==================*/
 section.no {
   
+  display: flex;
+  font-size: 2.0rem;
   margin: 80px 0;
+  
 }
-
+section.no .row h3 {
+  font-size: 2.0rem;
+  
+  margin: 10px;
+}
 section.no .container {
  
   width: 90%;
@@ -3246,8 +3274,8 @@ section.no .container {
 
 section.no p {
   color: rgb(41, 37, 37);
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 2rem;
+  line-height: 2.0rem;
   margin: 10px 0px 0px;
 }
 
@@ -3286,7 +3314,7 @@ section.qm .container {
 
 section.qm p {
   color: rgb(15, 15, 15);
-  font-size: 1.0rem;
+  font-size: 2.0rem;
   line-height: 2.0rem;
   margin: 10px 0px 0px;
 }
@@ -3297,7 +3325,12 @@ section.qm .row {
   margin: auto;
 
   display: flex;
+}
 
-  
+/* MEDIA QUERIS */
 
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
 }
