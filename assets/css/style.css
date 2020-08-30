@@ -84,7 +84,7 @@ h2 {
 
 h3 {
   font-size: 2.8rem; 
-  line-height: 3.8rem;
+  line-height: 9.0rem;
 
 }
 
@@ -3136,7 +3136,7 @@ MEDIA
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 .ca {
@@ -3191,7 +3191,7 @@ section.qs .container {
 section.qs p {
   color: rgb(15, 15, 15);
   font-size: 2.0rem;
-  line-height: 20px;
+  line-height: 2.0rem;
   margin: 10px 0px 0px;
 }
 
@@ -3251,16 +3251,13 @@ section.ar p {
 NOTICIAS
 ==================*/
 section.no {
-  
-  display: flex;
   font-size: 2.0rem;
-  margin: 80px 0;
-  
+
 }
 section.no .row h3 {
   font-size: 2.0rem;
-  
-  margin: 10px;
+ 
+ 
 }
 section.no .container {
  
@@ -3275,7 +3272,7 @@ section.no .container {
 section.no p {
   color: rgb(41, 37, 37);
   font-size: 2rem;
-  line-height: 2.0rem;
+  line-height: 1.0rem;
   margin: 10px 0px 0px;
 }
 
@@ -3332,5 +3329,11 @@ section.qm .row {
 @media (max-width: 768px) {
   html {
     font-size: 50%;
+  }
+}
+
+@media (max-width:1440px) and (min-width: 1024px){
+  html {
+    font-size: 85%;
   }
 }
