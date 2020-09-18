@@ -43,7 +43,9 @@ body {
   box-sizing: border-box; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%; 
+}
+  
 
 a:focus,
 input:focus,
@@ -95,7 +97,8 @@ h4 {
 
 h5 {
   font-size: 1.8rem;
-  line-height: 3.8rem;
+  line-height: 2.0rem;
+  text-align: center;
 }
 
 h6 {
@@ -109,11 +112,13 @@ ul, ol {
   list-style-type: none; }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 2.4rem;
+  line-height: 2.0rem;
   color: #121212;
-  margin: 0px; }
+  margin: 0px; 
+  text-align:center;
+}
 
 .bg_cover {
   background-position: center center;
@@ -3190,7 +3195,7 @@ section.qs .container {
 
 section.qs p {
   color: rgb(15, 15, 15);
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   line-height: 2.0rem;
   margin: 10px 0px 0px;
 }
@@ -3214,13 +3219,19 @@ section.es .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
+  
+}
+section.es .container img{
+  border: 1px solid rgb(126, 125, 125);
+  border-radius: 12px;
 }
 
 section.es p {
   color: rgb(15, 15, 15);
   font-size: 1.0rem;
   line-height: 2.0rem;
-  margin: 10px 0px 0px;
+  margin: 10px;
+  text-align: justify;
 }
 
 
@@ -3238,6 +3249,18 @@ section.ar .container {
   margin: auto;
 
   display: flex;
+ 
+}
+section.ar .container img{
+  border: 1px solid rgb(150, 144, 144);
+  border-radius: 12px;
+}
+
+section.ar .container a{
+  border:hidden;
+  margin: 1px;
+ 
+
 }
 
 section.ar p {
@@ -3269,12 +3292,7 @@ section.no .container {
   display: flex;
 }
 
-section.no p {
-  color: rgb(41, 37, 37);
-  font-size: 2rem;
-  line-height: 1.0rem;
-  margin: 10px 0px 0px;
-}
+
 
 /*=============== 
 REDE SOCIAL
@@ -3298,6 +3316,7 @@ sobre
 ==================*/
 section.qm {
   margin: 80px 0;
+  
 }
 
 section.qm .container {
@@ -3305,15 +3324,16 @@ section.qm .container {
   max-width: 980px;
 
   margin: auto;
-
   display: flex;
+  
 }
 
 section.qm p {
   color: rgb(15, 15, 15);
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   line-height: 2.0rem;
-  margin: 10px 0px 0px;
+  margin: 10px;
+  text-align: justify;
 }
 section.qm .row {
   width: 90%;
@@ -3322,6 +3342,17 @@ section.qm .row {
   margin: auto;
 
   display: flex;
+  
+}
+section.qm .row a{
+  margin-top: 10px;
+  
+ 
+}
+section.qm .row h4 {
+  padding: 10px;
+  text-align: center;
+
 }
 
 /* MEDIA QUERIS */
