@@ -20,6 +20,13 @@
       01.COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+
+/* Titulo Header */
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+
+/* .text-w*/
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Wire+One&display=swap');
+
 html {
   font-size: 62.5%;
 }
@@ -80,8 +87,9 @@ h1 {
 }
 
 h2 {
-  font-size: 3.6rem; 
+  font-size: 4.6rem; 
   line-height: 3.8rem;
+ 
 }
 
 h3 {
@@ -118,6 +126,23 @@ p {
   color: #121212;
   margin: 0px; 
   text-align:center;
+  font-family: "Poppins", sans-serif;
+}
+.title-header{
+  font-size: 8.8rem;
+  line-height: 3.8rem;
+  margin: 50px;
+  font-family: 'Wire One', sans-serif;
+  color:  #e6e6e6;
+}
+.text-w{
+  color: #e0d9ca;
+  margin: 60px;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-family: 'Charmonman', cursive;
+ 
+
 }
 
 .bg_cover {
@@ -3025,10 +3050,29 @@ p.form-message.success, p.form-message.error {
     21.FOOTER css 
 ===========================*/
 /*===== FOOTER FIVE =====*/
+
 .footer-area {
   background-color: #f4f6f7;
   padding-top: 90px;
-  padding-bottom: 120px; }
+  padding-bottom: 120px; 
+}
+  .footer-area img {
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+  padding: 5px;
+  margin: 1px;
+  border: 1px solid white;
+
+   
+  }
+  .text-inline{
+    font-size: 5.0rem;
+  line-height: 10px;
+  margin: 70px;
+  font-family: 'Wire One', sans-serif;
+  color:  #e6e6e6;
+  }
   .footer-area .social li {
     display: inline-block;
     margin: 0 5px; }
@@ -3358,6 +3402,13 @@ section.qm .row h4 {
 
 }
 
+section.qm .container .row test{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  
+}
+
 /* MEDIA QUERIS */
 
 @media (max-width: 768px) {
@@ -3365,7 +3416,6 @@ section.qm .row h4 {
     font-size: 50%;
   }
 }
-
 @media (max-width:1440px) and (min-width: 1024px){
   html {
     font-size: 85%;
