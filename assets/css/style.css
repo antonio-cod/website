@@ -24,9 +24,6 @@
 /* Titulo Header */
 @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
 
-/* .text-w*/
-@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Wire+One&display=swap');
-
 html {
   font-size: 62.5%;
 }
@@ -153,9 +150,7 @@ p {
   margin: 60px;
   font-size: 1.8rem;
   line-height: 1.8rem;
-  font-family: 'Charmonman', cursive;
- 
-
+  font-family: 'Poppins', cursive;
 }
 
 .bg_cover {
