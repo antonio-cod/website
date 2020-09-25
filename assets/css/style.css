@@ -53,7 +53,9 @@ img {
   max-width: 100%; 
 }
   
-
+body {
+  background-color: rgba(243, 242, 242, 0.918);
+}
 a:focus,
 input:focus,
 textarea:focus,
@@ -84,6 +86,7 @@ h6 {
 h1 {
   font-size: 4.8rem;
   line-height: 3.8rem;
+  text-align: center;
 }
 
 h2 {
@@ -101,6 +104,7 @@ h3 {
 h4 {
   font-size: 2.2rem; 
   line-height: 3.8rem;
+  text-align: center;
 }
 
 h5 {
@@ -112,6 +116,7 @@ h5 {
 h6 {
   font-size: 1.6rem; 
   line-height: 3.8rem;
+  text-align: center;
 }
 
 ul, ol {
@@ -134,6 +139,14 @@ p {
   margin: 50px;
   font-family: 'Wire One', sans-serif;
   color:  #e6e6e6;
+}
+.title-Header-title{
+  font-size: 5.8rem;
+  line-height: 2.8rem;
+  margin: 50px;
+  font-family: 'Wire One', sans-serif;
+  color:  #000000;
+
 }
 .text-w{
   color: #e0d9ca;
@@ -3366,7 +3379,7 @@ section.qm {
   
 }
 
-section.qm .container {
+section.qm container {
   width: 90%;
   max-width: 980px;
 
@@ -3382,7 +3395,7 @@ section.qm p {
   margin: 10px;
   text-align: justify;
 }
-section.qm .row {
+section.qm row {
   width: 90%;
   max-width: 1300px;
 
@@ -3402,12 +3415,6 @@ section.qm .row h4 {
 
 }
 
-section.qm .container .row test{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
-  
-}
 
 /* MEDIA QUERIS */
 
