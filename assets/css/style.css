@@ -170,21 +170,21 @@ p {
   font-family: "Poppins", sans-serif;
 }
 .text-w-c{
-  font-size: 0.1px;
-  font-weight: 0px;
-  line-height: 0.1 px;
+  font-size: 1.0rem;
+  font-weight: 5px;
+  line-height: 1.5rem;
   color: #121212;
   margin: 0px; 
-  text-align:justify;
-  font-family: 'Poppins', cursive;
+  text-align:center;
+  font-family: "Poppins", sans-serif;
 }
 .text-w-t{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 5px;
   line-height: 2.0rem;
   color: #121212;
   margin: 5px; 
-  text-align: justify;
+  text-align: center;
   font-family: "Poppins", sans-serif;
 }
 
@@ -2338,6 +2338,7 @@ p {
         -ms-transition: all 0.3s ease-out 0s;
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
+        
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .navbar-area .navbar .navbar-nav .nav-item a {
             padding: 10px 0;
@@ -3328,6 +3329,7 @@ section.es p {
 /*=============== 
 AREA
 ==================*/
+
 section.ar {
   margin: 80px 0;
 }
