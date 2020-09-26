@@ -169,6 +169,24 @@ p {
   text-align:justify;
   font-family: "Poppins", sans-serif;
 }
+.text-w-c{
+  font-size: 0.1px;
+  font-weight: 0px;
+  line-height: 0.1 px;
+  color: #121212;
+  margin: 0px; 
+  text-align:justify;
+  font-family: 'Poppins', cursive;
+}
+.text-w-t{
+  font-size: 1.2rem;
+  font-weight: 5px;
+  line-height: 2.0rem;
+  color: #121212;
+  margin: 5px; 
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
 
 .bg_cover {
   background-position: center center;
