@@ -3105,9 +3105,9 @@ p.form-message.success, p.form-message.error {
     display:inline-block;
     width: 150px;
     height: 150px;
-  border: 1px solid white;
-
-   
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid white;
   }
   .text-inline{
     font-size: 5.0rem;
